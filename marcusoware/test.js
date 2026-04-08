@@ -7,3 +7,4 @@ while (hash.length <= 7) {
 }
 }
 angle();
+
