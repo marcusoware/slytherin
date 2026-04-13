@@ -1,12 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-    <script src="assignment_1.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors || khode_geek</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="computer">
+        <p>Computer</p>
+
+        <div id="computer__choice">
+          <!-- <img src="img/rock.png" alt=""/> -->
+        </div>
+      </div>
+
+      <p id="result">Start Game !</p>
+
+      <div class="player">
+        <div id="player__choice">
+          <!-- <img src="img/scissors.png" alt=""/> -->
+        </div>
+
+        <p>Player</p>
+      </div>
+
+      <p id="score">Your Score: 0</p>
+
+      <div class="player__btns">
+        <button class="player__btn" value="rock">
+          <img src="img/rock.png" alt="" />
+          <p>rock</p>
+        </button>
+
+        <button class="player__btn" value="paper">
+          <img src="img/paper.png" alt="" />
+          <p>paper</p>
+        </button>
+
+        <button class="player__btn" value="scissors">
+          <img src="img/scissors.png" alt="" />
+          <p>scissors</p>
+        </button>
+      </div>
+    </div>
+
+    <!-- <script src="assignment_1.js"></script> -->
+    <script src="rock.js"></script>
+  </body>
 </html>
